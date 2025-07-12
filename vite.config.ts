@@ -9,7 +9,7 @@ import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
 import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 import vueJsx from '@vitejs/plugin-vue-jsx'
-import vueDevTools from 'vite-plugin-vue-devtools'
+// import vueDevTools from 'vite-plugin-vue-devtools'
 
 const pathSrc = path.resolve(__dirname, 'src')
 
@@ -56,7 +56,7 @@ export default defineConfig({
       autoInstall: true,
     }),
     vueJsx(),
-    vueDevTools(),
+    // vueDevTools(),
   ],
   resolve: {
     alias: {

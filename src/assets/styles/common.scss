@@ -1,0 +1,38 @@
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:after,
+.clearfix:before {
+  content: ' ';
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
