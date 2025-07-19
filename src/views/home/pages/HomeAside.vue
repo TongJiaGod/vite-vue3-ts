@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import MenuNav from './asideComp/MenuNav.vue'
+import MenuNav from '../components/MenuNav.vue'
 
 const menus = [
   {

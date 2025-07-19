@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import BreadCrumb from './headerComp/BreadCrumb.vue'
-import Logo from './headerComp/Logo.vue'
+import BreadCrumb from '../components/BreadCrumb.vue'
+import Logo from '../components/Logo.vue'
 BreadCrumb
 </script>
 

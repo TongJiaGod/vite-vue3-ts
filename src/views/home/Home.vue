@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import HomeAside from './components/HomeAside.vue'
-import HomeHeader from './components/HomeHeader.vue'
+import HomeAside from './pages/HomeAside.vue'
+import HomeHeader from './pages/HomeHeader.vue'
 </script>
 
 <template>
