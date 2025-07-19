@@ -10,12 +10,4 @@ import zhCn from 'element-plus/dist/locale/zh-cn.mjs'
   </div>
 </template>
 
-<style scoped lang="scss">
-a {
-  width: 100px;
-}
-
-div {
-  height: 100px;
-}
-</style>
+<style scoped lang="scss"></style>

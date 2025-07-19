@@ -28,7 +28,7 @@ const menus = [
 
 <style scoped lang="scss">
 .bread-crumb {
-  line-height: 48px;
+  line-height: 60px;
   font-size: 14px;
 
   .home {

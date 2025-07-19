@@ -14,6 +14,6 @@ BreadCrumb
 <style scoped lang="scss">
 .home-header {
   display: flex;
-  height: 48px;
+  height: 60px;
 }
 </style>

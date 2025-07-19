@@ -1,12 +1,38 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import MenuNav from './asideComp/MenuNav.vue'
+
+const menus = [
+  {
+    name: '系统总览',
+    icon: 'IconEpRefresh',
+    path: '/system',
+    children: [
+      {
+        name: '系统技术',
+        path: '/system/technology',
+        icon: 'IconEpLocation',
+      },
+    ],
+  },
+]
+</script>
 
 <template>
-  <div class="home-aside">home-aside</div>
+  <div class="home-aside">
+    <el-menu>
+      <MenuNav :menus="menus" />
+    </el-menu>
+  </div>
 </template>
 
 <style scoped lang="scss">
 .home-aside {
-  width: 100%;
-  background-color: #001529;
+  height: 100%;
+  border-right: 1px solid var(--line-color);
+  // background-color: #001529;
+
+  .el-menu {
+    border: none;
+  }
 }
 </style>

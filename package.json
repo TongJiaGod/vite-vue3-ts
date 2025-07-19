@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "f": "pnpm dev",
     "dev": "pnpm install && vite",
     "build": "pnpm install && run-p type-check \"build-only {@}\" --",
     "preview": "pnpm build && vite preview",
@@ -22,6 +23,7 @@
     "vue-router": "^4.5.1"
   },
   "devDependencies": {
+    "@iconify-json/ep": "^1.2.2",
     "@tsconfig/node22": "latest",
     "@types/node": "latest",
     "@vitejs/plugin-vue": "latest",
