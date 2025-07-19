@@ -22,22 +22,22 @@ export class Request {
   }
 
   get(config: AxiosRequestConfig) {
-    return this.instance.request({ ...config, method: 'get' })
+    return this.request({ ...config, method: 'get' })
   }
 
   post(config: AxiosRequestConfig) {
-    return this.instance.request({ ...config, method: 'post' })
+    return this.request({ ...config, method: 'post' })
   }
 
   put(config: AxiosRequestConfig) {
-    return this.instance.request({ ...config, method: 'put' })
+    return this.request({ ...config, method: 'put' })
   }
 
   delete(config: AxiosRequestConfig) {
-    return this.instance.request({ ...config, method: 'delete' })
+    return this.request({ ...config, method: 'delete' })
   }
 
   patch(config: AxiosRequestConfig) {
-    return this.instance.request({ ...config, method: 'patch' })
+    return this.request({ ...config, method: 'patch' })
   }
 }
